@@ -4,8 +4,8 @@
 [[projects]]
   name = "cloud.google.com/go"
   packages = ["compute/metadata"]
-  revision = "2d3a6656c17a60b0815b7e06ab0be04eacb6e613"
-  version = "v0.16.0"
+  revision = "0fd7230b2a7505833d5f69b75cbd6c9582401479"
+  version = "v0.23.0"
 
 [[projects]]
   name = "github.com/BurntSushi/toml"
@@ -23,7 +23,7 @@
   branch = "v2"
   name = "github.com/coreos/go-oidc"
   packages = ["."]
-  revision = "77e7f2010a464ade7338597afe650dfcffbe2ca8"
+  revision = "1bddd0c53795df182c7b4a3eac80127312ef50ca"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
@@ -32,10 +32,16 @@
   version = "v1.1.0"
 
 [[projects]]
-  branch = "master"
+  name = "github.com/fsnotify/fsnotify"
+  packages = ["."]
+  revision = "836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6"
+  version = "v1.2.11"
+
+[[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto"]
-  revision = "1e59b77b52bf8e4b449a57e6f79f21226d571845"
+  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
+  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/mbland/hmacauth"
@@ -62,7 +68,7 @@
     ".",
     "cacheobject"
   ]
-  revision = "0dec1b30a0215bb68605dfc568e8855066c9202d"
+  revision = "1555304b9b35fdd2b425bccf1a5613677705e7d0"
 
 [[projects]]
   name = "github.com/stretchr/testify"
@@ -79,7 +85,7 @@
     "ed25519",
     "ed25519/internal/edwards25519"
   ]
-  revision = "9f005a07e0d31d45e6656d241bb5c0f2efd4bc94"
+  revision = "5ba7f63082460102a45837dbd1827e10f9479ac0"
 
 [[projects]]
   branch = "master"
@@ -88,7 +94,7 @@
     "context",
     "context/ctxhttp"
   ]
-  revision = "9dfe39835686865bff950a07b394c12a98ddc811"
+  revision = "1e491301e022f8f977054da4c2d852decd59571f"
 
 [[projects]]
   branch = "master"
@@ -100,7 +106,7 @@
     "jws",
     "jwt"
   ]
-  revision = "9ff8ebcc8e241d46f52ecc5bff0e5a2f2dbef402"
+  revision = "ec22f46f877b4505e0117eeaab541714644fdd28"
 
 [[projects]]
   branch = "master"
@@ -111,7 +117,7 @@
     "googleapi",
     "googleapi/internal/uritemplates"
   ]
-  revision = "8791354e7ab150705ede13637a18c1fcc16b62e8"
+  revision = "de943baf05a022a8f921b544b7827bacaba1aed5"
 
 [[projects]]
   name = "google.golang.org/appengine"
@@ -131,24 +137,18 @@
   version = "v1.0.0"
 
 [[projects]]
-  name = "gopkg.in/fsnotify.v1"
-  packages = ["."]
-  revision = "836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6"
-  version = "v1.2.11"
-
-[[projects]]
   name = "gopkg.in/square/go-jose.v2"
   packages = [
     ".",
     "cipher",
     "json"
   ]
-  revision = "f8f38de21b4dcd69d0413faf231983f5fd6634b1"
-  version = "v2.1.3"
+  revision = "76dd09796242edb5b897103a75df2645c028c960"
+  version = "v2.1.6"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b502c41a61115d14d6379be26b0300f65d173bdad852f0170d387ebf2d7ec173"
+  inputs-digest = "920ee607248267a40e44510630122195ec608388e30e73263968c0d76a20a00c"
   solver-name = "gps-cdcl"
   solver-version = 1
